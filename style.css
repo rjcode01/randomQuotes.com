@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Ephesis&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container,
+.inner,
+.number,
+.quotes,
+.author {
+  display: flex;
+}
+.container,
+.inner {
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background-color: #4e331b;
+  height: 47.7rem;
+  flex-direction:column;
+}
+.d-mode {
+  background-color: #7affff;
+}
+
+.inner,
+.box {
+  border-radius: 10px;
+}
+.inner {
+  background-color: #a195ff;
+  width: 54rem;
+  height: 30rem;
+
+}
+
+.darkmode{
+  width: 3rem;
+  height: 1rem;
+  background-color: rgb(255 90 90);
+  border-radius: 30px 30px 0px 0px;
+  cursor: pointer;
+}
+
+.changemode{
+    width: 1.3rem;
+    height: 1re;
+    height: 1rem;
+    border-radius: 30px 0px 0px 0px;
+    background: white;
+    transition: .5s;
+}
+
+.changemode2{
+  background-color: #868686;
+  margin-left: 1.7rem;
+  border-radius: 0 15px 0px 0px;
+  transition: .5s;
+}
+.box {
+  width: 46rem;
+  height: 22rem;
+  background-color: rgb(247, 247, 247);
+}
+
+.box2{
+  background-color: rgb(85, 46, 46);
+  color: rgb(255, 255, 255);
+}
+.number {
+  justify-content: end;
+}
+
+.number img {
+  cursor: pointer;
+  width: 7%;
+  border-radius: 0rem 9rem 0rem 47rem;
+}
+
+.text{
+  height: 16.35rem;
+  /* background-color: aqua; */
+}
+
+.start-quote {
+  font-size: 3rem;
+  -webkit-filter: invert(70%);
+  filter: invert(70%);
+  padding-left: 20px;
+}
+.quotes {
+  font-family: "Ephesis", cursive;
+  justify-content: center;
+  padding: 2rem;
+  font-size: 30px;
+}
+
+.author {
+  justify-content: end;
+  font-family: "Stick No Bills", sans-serif;
+  padding-right: 40px;
+}
+
+.button p {
+  width: 45.1rem;
+  background-color: #ff5a5a;
+  padding: 7px;
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  text-align: center;
+  cursor: pointer;
+
+  border-radius: 0px 0px 11px 11px;
+}

@@ -1,0 +1,78 @@
+@media screen and (max-width: 990px) {
+  .inner {
+    width: 40rem;
+  }
+  .box {
+    width: 34rem;
+    height: 24.5rem;
+  }
+
+  .text {
+    height: 19.7rem;
+  }
+  .button p {
+    width: 33.1rem;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .inner {
+    width: 30rem;
+    height: 34rem;
+  }
+  .box {
+    width: 24rem;
+    height: 28rem;
+  }
+
+  .text {
+    height: 23.1rem;
+  }
+  .button p {
+    width: 23.2rem;
+  }
+  .number img {
+    width: 10%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .inner {
+    width: 24rem;
+    height: 31rem;
+  }
+  .box {
+    width: 22rem;
+    height: 29rem;
+  }
+
+  .text {
+    height: 24.3rem;
+  }
+  .button p {
+    width: 21.1rem;
+  }
+  .number img {
+    width: 10%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .inner {
+    width: 21rem;
+    height: 32rem;
+  }
+  .box {
+    width: 19rem;
+    height: 30rem;
+  }
+
+  .text {
+    height: 25.6rem;
+  }
+  .button p {
+    width: 18.13rem;
+  }
+  .number img {
+    width: 10%;
+  }
+}
